@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css">
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- main css -->
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- font awesome -->
-  <link rel="stylesheet" href="css/all.css">
   <title>Grandma's Project</title>
   <style>
   </style>
@@ -19,37 +19,87 @@
 
 <body>
 
+  <!-- Start header -->
+
   <header id="header">
+
+  <!-- Start nav -->
   <nav class="navbar navbar-expand-lg">
     <a href="#" class=" navbar-brand "><img src="img/logo.svg"/></a>
     <button type="button" class=" navbar-toggler " data-toggle="collapse"
     data-target="#myNavbar" >
-      <span><i class="fas fa-bars"></i></span>
+      <span class="toggle-icon"><i class="fas fa-bars"></i></span>
     </button>
     <div class=" collapse navbar-collapse" id="myNavbar">
-      <ul class=" navbar-nav text-capitalize ">
+      <ul class=" navbar-nav text-capitalize mx-auto ">
         <li class=" nav-item active">
           <a href="#header" class=" nav-link">home</a>
         </li>
         <li class=" nav-item active">
-            <a href="#header" class=" nav-link">about</a>
+            <a href="#about" class=" nav-link">about</a>
         </li>
         <li class=" nav-item active">
-            <a href="#header" class=" nav-link">store</a>
+            <a href="#store" class=" nav-link">store</a>
         </li>
         <li class=" nav-item active">
-            <a href="#header" class=" nav-link">services</a>
+            <a href="#services" class=" nav-link">services</a>
         </li>
         <li class=" nav-item active">
-            <a href="#header" class=" nav-link">order</a>
+            <a href="#caks" class=" nav-link">order</a>
         </li>
       </ul>
+      <div class=" nav-info-items d-none d-lg-flex">
+        <!-- nav right contact information  -->
+        <div class="nav-info d-flex align-items-center justify-content-between 
+        mx-lg-5">
+          <span class="info-icon mx-lg-3">
+            <i class=" fas fa-phone"></i>
+          </span>
+          <p class=" mb-0 ">+ 123 456 789 </p>
+        </div>
+        <!-- nav right contact information  -->
+        <div class=" nav-info card-info align-items-center d-flex mx-lg-5 
+        justify-content-between card-info ">
+          <span class="card-info-icon mx-lg-3 ">
+            <i class=" fas fa-shopping-cart"></i>
+          </span>
+          <p class="mb-0 text-capitalize">
+            <span id="item-count">2</span>
+            items - $
+            <sapn  class="item-total">
+              10.58
+            </sapn>
+          </p>
+        </div>
+      </div>
+
 
     </div>
 
   </nav>
+  <!-- End nav -->
+
+  <!-- Start background -->
+
+  <div class=" container-fluid">
+    <div class=" row background-image justify-content-center align-items-center">
+      <div class=" col-10 caption text-center">
+        <h1 class=" text-capitalize ">welcome <strong class="title">gad</strong></h1>
+        <a href="#" class="btn caption-link my-2 text-uppercase" >Explore</a>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- End background -->
 
   </header>
+
+  <!-- End header -->
 
 
 

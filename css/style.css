@@ -17,6 +17,105 @@ body {
 }
 
 
+/* start nav style */
+
+.navbar-toggler
+{
+  outline: none !important;
+}
+
+.toggle-icon
+{
+  font: size 2.5rem;
+  color: var(--mainPink);
+}
+
+.nav-link
+{
+  color: var(--mainPink);
+  transition: all .3s ease-in;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover
+{
+  color: var(--mainBlack);
+}
+
+
+.card-info-icon
+{
+  color: var(--mainBlack);
+  cursor: pointer;
+}
+
+.card-info 
+{
+  padding: .1rem .6rem;
+  border: .2rem solid var(--mainBlack);
+  cursor: pointer;
+  border-radius: .25rem;
+  transition: all .1s ease;
+}
+
+.card-info:hover
+{
+  background-color: var(--mainPink);
+  color: var(--mainWhite);
+  border-color: var(--mainPink);
+}
+
+.card-info:hover .card-info-icon
+{
+  color: var(--mainWhite); 
+}
+
+/* End nav style */
+
+/* Start background And Caption */
+
+.background-image
+{
+  background: linear-gradient( var(--yellowTrans),var(--yellowTrans) ) , url(../img/headerBcg.jpeg);
+  min-height: calc(100vh - 76px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.caption
+{
+  color: var(--mainWhite);
+  font-size: 5rem;
+}
+
+.caption .title
+{
+  font-size: 6rem;
+  color: var(--mainPink);
+}
+
+.caption .caption-link
+{
+  border: .2rem solid var(--mainBlack);
+  font-size: 2rem;
+  color: var(--mainBlack);
+}
+
+.caption .caption-link:hover
+{
+  background-color: var(--mainBlack);
+  color: var(--mainPink);
+}
+
+/* End background And Caption */
+
+
+
+
+
 
 
 
